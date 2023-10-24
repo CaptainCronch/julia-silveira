@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* { /* RESET */
+    vertical-align: baseline;
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+    font-style: inherit;
+    font-size: 32px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+head, script {
+    display: none;
+}
+
+html, body{
+    display: block;
+}
+
+body {
+    /* height: 100vh; */
+}
+
+.background {
+    /* height: 100vh; */
+    background: url(images/Cherrygirl.svg) no-repeat center center fixed;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    display: block;
+}
+
+#index {
+    overflow: hidden;
+}
+
+#work {
+    background-image: none;
+    background: radial-gradient(circle at 50% 50%, #194890, #1d428c, #213c88, #253684, #28307f, #2c297a);
+}
+
+#hero {
+    display: block;
+    height: 100%;
+    /* background-image: url("images/bunny.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    padding: 60px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+h1, a {
+    color: antiquewhite;
+    background: none;
+    border: none;
+    font-size: 32px;
+}
+
+#TITLE {
+    margin-right: auto;
+}
+
+#ABOUT {
+    padding-left: 25px;
+}
+
+#WORK{
+    color:black
+}
+
+#navigation {
+
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 400vh;
+    grid-gap: 25px;
+    margin: 25px;
+}
+
+.grid-item {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#i1 {
+    background-image: url(images/SaoPauloTravelPoster\ \(1\)\(1\).png);
+    grid-column: 1;
+    grid-row: 1 / 3;
+    background-color: #29c4f2;
+} 
+
+#i2 {
+    background-image: url(images/IMG_0613.jpg);
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #284a30;
+} 
+
+#i3 {
+    background-image: url(images/IMG_0614.jpg);
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #c68643;
+}
+
+#i4 {
+    background-image: url(images/IMG_0616.jpg);
+    grid-column: 4;
+    grid-row: 1;
+    background-color: #e3e8e9;
+}
+
+/* #i5 {
+    background-image: url(images/Untitled-Artwork\ \(5\).jpg);
+    grid-column: 1;
+    grid-row: 2;
+} */
+
+#i6 {
+    background-image: url(images/Untitled-Artwork\ \(2\).jpg);
+    background-color: white;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#i7 {
+    background-image: url(images/KUPUinstaAd3Critique\ \(1\).png);
+    background-color: #3a3134;
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+}
+
+/* #i8 {
+    background-image: url("images/IMG-0585 (1).JPG");
+    background-color: #1a1736;
+    grid-column: 4;
+    grid-row: 2;
+} */
+
+#i9 {
+    background-image: url(images/IMG-0635.JPG);
+    background-color: white;
+    grid-column: 1;
+    grid-row: 3 / 5;
+}
+
+#i10 {
+    background-image: url(images/KupuFoodTruckCritique\(7\).jpg);
+    background-color: white;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+/* #i11 {
+    background-image: url(images/KuPuInstaAd1Critique\ \(1\).png);
+    background-color: #00afad;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#i12 {
+    background-image: url(images/IMG-0584.JPG);
+    background-color: #bcd5ff;
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#i13 {
+    background-image: url(images/KUPUinstaAd4Critique\ \(1\).png);
+    grid-column: 1;
+    grid-row: 4;
+} */
+
+#i14 {
+    background-image: url(images/KUPUMENU\ \(1\).jpg);
+    background-color: white;
+    grid-column: 2 / 4;
+    grid-row: 4 / 6;
+}
+
+/* #i15 {
+    background-image: url(images/IMG-0583.JPG);
+    background-color: #ff9eff;
+    grid-column: 3;
+    grid-row: 4;
+} */
+
+#i16 {
+    background-image: url(images/Untitled-Artwork\ \(1\).jpg);
+    background-color: #c1d8e3;
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#i17 {
+    background-image: url(images/Untitled-1\ \(2\).jpg);
+    background-color: white;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+/* #i18 {
+    background-image: url(images/Untitled-Artwork\ \(3\).jpg);
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#i19 {
+    background-image: url(images/Untitled-Artwork\ \(4\).jpg);
+    grid-column: 3;
+    grid-row: 5;
+} */
+
+#i20 {
+    background-image: url(images/Untitled-Artwork.jpg);
+    background-color: #dfdfdd;
+    grid-column: 4;
+    grid-row: 5;
+}
+
+#i21 {
+    background-image: url(images/Wine-Glass-And-Decanter-Concept.jpg);
+    background-color: #d1ecf5;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#i22 {
+    background-image: url(images/Untitled-5\ [Recovered].svg);
+    background-color: white;
+    grid-column: 2 / 4;
+    grid-row: 6;
+}
+
+#i24 {
+    background-image: url(images/Untitled-Artwork\ \(5\).jpg);
+    background-color: #010222;
+    grid-column: 4;
+    grid-row: 6 / 8;
+}
+
+#i25 {
+    background-image: url("images/IMG-0585 (1).JPG");
+    background-color: #1a1736;
+    grid-column: 1;
+    grid-row: 7;
+}
+
+#i26 {
+    background-image: url(images/IMG-0584.JPG);
+    background-color: #bcd5ff;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+#i27 {
+    background-image: url(images/IMG-0583.JPG);
+    background-color: #ff9eff;
+    grid-column: 3;
+    grid-row: 7;
+}
+
+#i28 {
+    background-image: url(images/KuPuInstaAd1Critique\ \(1\).png);
+    background-color: #00afad;
+    grid-column: 1;
+    grid-row: 8;
+}
+
+#i29 {
+    background-image: url(images/KUPUinstaAd4Critique\ \(1\).png);
+    background-color: #3a3134;
+    grid-column: 2;
+    grid-row: 8;
+}
+
+#i30 {
+    background-image: url(images/Untitled-Artwork\ \(3\).jpg);
+    background-color: #36366c;
+    grid-column: 3;
+    grid-row: 8;
+}
+
+#i31 {
+    background-image: url(images/Untitled-Artwork\ \(4\).jpg);
+    background-color: #bfc0ff;
+    grid-column: 4;
+    grid-row: 8;
+}
+
+main.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.about div {
+    width: 100%;
+}
+
+#selfie {
+    background-image: url(images/Snapchat-2078576742.jpg);
+    border-radius: 100%;
+    object-fit: contain;
+    background-position: 50% 45%;
+    aspect-ratio: 1;
+    margin: 0 50px 0 200px;
+}
+
+#text {
+    color: antiquewhite;
+    width: 100%;
+    margin: 0 200px 0 50px;
+    line-height: 1.5;
+    text-align: justify;
+}
